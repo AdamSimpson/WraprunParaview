@@ -1,7 +1,7 @@
-This sample shows how to launch batch `Paraview` jobs from with `wraprun` on Titan
+This sample shows how to launch batch `Paraview` jobs from `wraprun` on Titan
 
 # Prepare
-Change batch_script.pbs `-A STF007` to specify a project you're a member of
+Change `batch_script.pbs` such that the line `-A STF007` specifies a valid project
 
 # Running
-qsub batch_script.pbs
+[@titan]$ qsub batch_script.pbs
